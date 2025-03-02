@@ -59,3 +59,26 @@ p{
   background: rgba(14, 168, 197, 1);
   border: none;
 }
+.nav_main i{
+  display: none;
+}
+@media(max-width:1199px){
+  .nav_main i{
+    display: block;
+  }
+  .nav_main p{
+    font-weight: 400;
+    font-size: 15px;
+    width: 33.33%;
+    text-align: center;
+    display: none;
+  }
+  .nav_btn_divs{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 33.33%;
+    display: none;
+  }
+}

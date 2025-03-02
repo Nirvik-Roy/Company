@@ -12,6 +12,9 @@ const Header = () => {
                     <button className='button'>Login</button>
                     <button className='button'>Subscription</button>
                 </div>
+                <i class="fa-solid fa-bars-staggered" style={{
+                  fontSize:'28px'
+                }}></i>
             </div>
         </div>
       </div>

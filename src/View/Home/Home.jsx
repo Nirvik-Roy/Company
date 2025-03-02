@@ -5,6 +5,13 @@ import img from '../../assets/7107883 1.png'
 import HomeServices from './HomeServices'
 import HomeSolution from './HomeSolution'
 import ModualSolutions from './ModualSolutions'
+import CustomSolution from './CustomSolution'
+import EnhanceProduct from './EnhanceProduct'
+import Company from './Company'
+import Steps from './Steps'
+import Slider from './Slider'
+import Achievements from './Achievements'
+import BuyApi from './BuyApi'
 const Home = () => {
   return (
     <>
@@ -33,6 +40,13 @@ that offers the best engagement to your customers
      <HomeServices/>
      <HomeSolution/>
      <ModualSolutions/>
+     <CustomSolution/>
+     <EnhanceProduct/>
+     <Company/>
+     <Steps/>
+     <Slider/>
+     <Achievements/>
+     <BuyApi/>
     </>
   )
 }
