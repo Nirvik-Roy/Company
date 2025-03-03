@@ -358,27 +358,15 @@
     height: 100%;
 }
 .company_wrapper{
-    height: 150px;
+    padding: 50px 0px;
     background-color: rgb(177, 210, 217);
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    overflow: hidden;
 }
-.company_logo_main{
-    width: 100%;
-    max-width: 87%;
-    min-width: 87%;
-    margin-inline: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .company_logo_div{
     width: 100%;
-    max-width: 16%;
-    min-width: 16%;
+    max-width: 75%;
+    min-width: 75%;
     height: 70px;
 }
 .company_logo_div img{
@@ -398,6 +386,11 @@
     width: 100%;
     max-width: 40%;
     min-width: 40%;
+}
+.step_content_new{
+    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
 }
 .step_circle_wrapper{
     width: 100%;
@@ -477,7 +470,7 @@ font-weight: 600;
     align-items: center;
     column-gap: 15px;
 }
-.arrow_div{
+.arrow_div1{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -485,8 +478,26 @@ font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: -50px;
+    right: 80px;
 }
-.arrow_div i{
+.arrow_div2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+    right: 10px;
+}
+.arrow_div1 i{
+    font-size: 18px;
+}
+.arrow_div2 i{
     font-size: 18px;
 }
 .slider_div{
@@ -570,6 +581,10 @@ font-weight: 600;
     border: none;
     margin-top: 20px
 }
+.steps_display_class{
+    display: none;
+}
+
 @media(max-width:1299px){
     .banner_left_content_wrapper h1 {
         font-size: 46px;
@@ -631,6 +646,12 @@ font-weight: 600;
 
 }
 @media(max-width:1199px){
+    .steps_display_class{
+        display: block;
+    }
+    .new_layout_display_class{
+        display: none;
+    }
     .modular_solutions_right {
         width: 100%;
         max-width: 100%;
@@ -1032,6 +1053,7 @@ font-weight: 600;
   .new_layout_wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 32vh;
     margin-bottom: 32vh;
   }

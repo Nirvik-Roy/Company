@@ -49,12 +49,15 @@ useEffect(()=>{
    },{
     strokeDashoffset:0,
     ease:'easeIn',
+    duration:20,
     scrollTrigger:{
         
         trigger:'.svg_container',
+
         start:'top top',
         end:'bottom bottom',
         scrub:15,
+        once:true
     }
    })
 },[])
@@ -65,7 +68,10 @@ useEffect(()=>{
         position:'relative'
       }}>
         <div className='uni_container'>
-        {/* {data.map((e,i)=>{
+        <div className='steps_display_class'>
+
+       
+        {data.map((e,i)=>{
             return (
                 <>
                 <div className='step_wrapper'>
@@ -81,19 +87,21 @@ useEffect(()=>{
             </div>
                 </>
             )
-        })} */}
+        })}
+        </div>
+        <div className='new_layout_display_class'>
         <div className='new_layout_wrapper'>
         <div  style={{
                 display:"flex",
                 flexDirection:'column',
-                rowGap:'150px',
+                rowGap:'250px',
                 position:'relative',
                
             }}  >
                 {data.map((e,i)=>{
                     return(
                         <>
-                            <div className='step_content'>
+                            <div className='step_content_new'>
                             <h1>{e.title}</h1>
                             <p>{e.description}</p>
                             </div>
@@ -127,7 +135,7 @@ useEffect(()=>{
                 </div>
             </div>
         </div>
-           
+        </div>
         </div>
       </div>
     </>

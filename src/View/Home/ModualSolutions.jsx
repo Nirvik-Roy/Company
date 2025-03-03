@@ -19,6 +19,12 @@ import img17 from '../../assets/Group 1000004511.png'
 import img18 from '../../assets/Group 1000004511 (1).png'
 import img19 from '../../assets/Group 1000004513.png'
 import img20 from '../../assets/Group 1000004513 (1).png'
+import img21 from '../../assets/Group 1000004561.png'
+import img22 from '../../assets/Group 1000004562.png'
+import img23 from '../../assets/Group 1000004563.png'
+import img24 from '../../assets/Group 1000004564.png'
+import img25 from '../../assets/Group 1000004547 (1).png'
+import img26 from '../../assets/Group 1000004547 (2).png'
 const ModualSolutions = () => {
   return (
     <>
@@ -104,6 +110,27 @@ needing to build it all yourself. Enable your users to
                     <img className='default' src={img19}/>
                     <div className='default_active'>
                     <img src={img20}/>
+                    <p>Connect</p>
+                    </div>
+                </>}
+                {i === 31 && <>
+                    <img className='default' src={img21}/>
+                    <div className='default_active'>
+                    <img src={img22}/>
+                    <p>Connect</p>
+                    </div>
+                </>}
+                {i === 35 && <>
+                    <img className='default' src={img23}/>
+                    <div className='default_active'>
+                    <img src={img24}/>
+                    <p>Connect</p>
+                    </div>
+                </>}
+                {i === 36 && <>
+                    <img className='default' src={img25}/>
+                    <div className='default_active'>
+                    <img src={img26}/>
                     <p>Connect</p>
                     </div>
                 </>}

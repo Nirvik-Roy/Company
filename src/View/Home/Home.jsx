@@ -9,9 +9,10 @@ import CustomSolution from './CustomSolution'
 import EnhanceProduct from './EnhanceProduct'
 import Company from './Company'
 import Steps from './Steps'
-import Slider from './Slider'
+
 import Achievements from './Achievements'
 import BuyApi from './BuyApi'
+import Testimonial from './Testimonial'
 const Home = () => {
   return (
     <>
@@ -44,7 +45,7 @@ that offers the best engagement to your customers
      <EnhanceProduct/>
      <Company/>
      <Steps/>
-     <Slider/>
+    <Testimonial/>
      <Achievements/>
      <BuyApi/>
     </>
